@@ -1,0 +1,228 @@
+h1 {
+    margin: 10px 8px 16px;
+}
+
+.filter-part {
+    padding: 0 10px;
+}
+
+.filter.filter-gv {
+    justify-content: space-evenly !important;
+}
+
+.filter-part select {
+    display: inline-block;
+    height: 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-part form+form {
+    margin-top: 10px;
+}
+
+input {
+    display: inline-block;
+    height: 22px;
+    /* margin-bottom: 4px; */
+    margin-left: 4px;
+    padding: 0 4px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    height: 26px;
+    /* margin-bottom: 4px; */
+    padding: 0 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.controls {
+    padding: 6px 10px;
+}
+
+.controls .button {
+    /* margin-left    : 4px; */
+    /* margin-right: 6px; */
+}
+
+.controls .button~.button {
+    margin-left: 8px;
+}
+
+table.form.tb_user,
+table.form.tb_update {
+    width: 80%;
+    margin-left: 10%;
+}
+
+table.form td a {
+    display: inline-block;
+    /* width          : fit-content; */
+    min-width: 60px;
+    padding: 2px 6px !important;
+    margin: 2px 4px 2px 0 !important;
+    color: white;
+    background: rgb(30, 30, 30);
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+table.form tr td:first-child,
+table.form tr td:last-child {
+    text-align: center;
+}
+
+table.form tr td:nth-child(2) {
+    min-width: 120px;
+}
+
+
+/* table.form tr td:nth-child(18) {
+    min-width : 80px;
+    text-align: right;
+} */
+
+table.form thead td {
+    text-align: center;
+}
+
+table.form select {
+    height: 26px;
+    margin-left: 4px;
+}
+
+.message-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -4px 10px 0;
+}
+
+.message-options p,
+.message-options a {
+    font-size: 18px;
+}
+
+.send-message {
+    margin: 30px;
+    text-align: center;
+}
+
+.send-message .new-message {
+    width: 400px;
+}
+
+.message-error {
+    margin: 30px 0 20px;
+    color: red;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.error-wrap {
+    text-align: center;
+}
+
+.table-wrap {
+    width: 100%;
+    min-height: 300px;
+    overflow: scroll;
+}
+
+table.form.tb_user tbody tr td:first-child,
+table.form.tb_update tbody tr td:first-child {
+    text-align: left;
+}
+
+.tb_user td:first-child {
+    width: 150px;
+}
+
+.tb_user td:last-child {
+    width: 180px;
+    text-align: center;
+}
+
+.tb_user tbody td {
+    /* display: inline-block; */
+    padding: 6px 20px !important;
+}
+
+.tb_user tbody td a~a {
+    /* display    : inline-block;*/
+    margin-left: 10px !important;
+}
+
+.tb_update tr td:last-child {
+    text-align: left !important;
+}
+
+#header div {
+    text-align: center;
+    line-height: 50px;
+}
+
+#content form tr {
+    text-align: left !important;
+}
+
+.login-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+    height: 300px;
+}
+
+.login-wrap h1 {
+    text-align: left !important;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.login-wrap table td {
+    font-size: 18px;
+}
+
+.login-wrap .login-btn {
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.filter {
+    margin-bottom: 16px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination span,
+.pagination a {
+    border-radius: 2px;
+}
+
+.pagination span~a,
+.pagination a~span,
+.pagination a~a {
+    margin-left: 4px;
+}
+
+a {
+    color: black;
+}
